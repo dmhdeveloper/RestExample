@@ -1,4 +1,4 @@
-package za.co.entersekt.core;
+package za.co.example.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -6,12 +6,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import za.co.entersekt.BaseResponse;
-import za.co.entersekt.FileListResponse;
-import za.co.entersekt.Status;
-import za.co.entersekt.core.directory.DirectoryNotFoundException;
-import za.co.entersekt.core.directory.DirectoryTransformationException;
-import za.co.entersekt.core.directory.IDirectoryService;
+import za.co.example.BaseResponse;
+import za.co.example.FileListResponse;
+import za.co.example.Status;
+import za.co.example.core.directory.DirectoryNotFoundException;
+import za.co.example.core.directory.DirectoryTransformationException;
+import za.co.example.core.directory.IDirectoryService;
 
 @RestController
 public class DirectoryController {

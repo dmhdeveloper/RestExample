@@ -1,4 +1,4 @@
-package za.co.entersekt.core.directory.impl;
+package za.co.example.core.directory.impl;
 
 import org.apache.logging.log4j.util.Strings;
 import org.slf4j.Logger;
@@ -6,13 +6,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-import za.co.entersekt.Directory;
-import za.co.entersekt.FileListResponse;
-import za.co.entersekt.Status;
-import za.co.entersekt.core.directory.DirectoryNotFoundException;
-import za.co.entersekt.core.directory.DirectoryTransformationException;
-import za.co.entersekt.core.directory.IDirectoryService;
-import za.co.entersekt.core.utility.Transformer;
+import za.co.example.Directory;
+import za.co.example.FileListResponse;
+import za.co.example.Status;
+import za.co.example.core.directory.DirectoryNotFoundException;
+import za.co.example.core.directory.DirectoryTransformationException;
+import za.co.example.core.directory.IDirectoryService;
+import za.co.example.core.utility.Transformer;
 
 import java.io.File;
 import java.io.IOException;

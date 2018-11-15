@@ -1,4 +1,4 @@
-package za.co.entersekt;
+package za.co.example;
 
 public class FileListResponse extends BaseResponse {
 

@@ -1,4 +1,4 @@
-package za.co.entersekt;
+package za.co.example;
 
 import java.util.LinkedList;
 import java.util.List;

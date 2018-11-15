@@ -1,9 +1,9 @@
-package za.co.entersekt.core.utility;
+package za.co.example.core.utility;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import za.co.entersekt.Directory;
-import za.co.entersekt.SystemFile;
+import za.co.example.Directory;
+import za.co.example.SystemFile;
 
 import java.io.File;
 import java.io.IOException;

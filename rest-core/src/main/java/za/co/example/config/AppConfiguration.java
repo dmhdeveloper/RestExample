@@ -1,4 +1,4 @@
-package za.co.entersekt.config;
+package za.co.example.config;
 
 import org.springframework.context.annotation.Configuration;
 

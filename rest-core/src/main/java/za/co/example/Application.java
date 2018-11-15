@@ -1,11 +1,11 @@
-package za.co.entersekt;
+package za.co.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "za.co.entersekt")
+@ComponentScan(basePackages = "za.co.example")
 public class Application {
 
     public static void main(String[] args) {

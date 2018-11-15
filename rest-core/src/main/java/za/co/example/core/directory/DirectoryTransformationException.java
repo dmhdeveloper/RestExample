@@ -1,4 +1,4 @@
-package za.co.entersekt.core.directory;
+package za.co.example.core.directory;
 
 public class DirectoryTransformationException extends Exception {
     public DirectoryTransformationException() {

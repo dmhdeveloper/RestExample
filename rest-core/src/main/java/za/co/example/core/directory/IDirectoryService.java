@@ -1,6 +1,6 @@
-package za.co.entersekt.core.directory;
+package za.co.example.core.directory;
 
-import za.co.entersekt.FileListResponse;
+import za.co.example.FileListResponse;
 
 public interface IDirectoryService {
 

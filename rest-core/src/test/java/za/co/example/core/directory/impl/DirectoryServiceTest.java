@@ -1,4 +1,4 @@
-package za.co.entersekt.core.directory.impl;
+package za.co.example.core.directory.impl;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
