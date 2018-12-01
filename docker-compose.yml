@@ -1,0 +1,30 @@
+version: '3.5'
+services:
+  restapp:
+    build:
+      context: .
+      args:
+        JAR_FILE: rest-core/target/rest-core-1.0-SNAPSHOT.jar
+    ports:
+      - "8080:8080"
+      - "8787:8787"
+    networks:
+      backend:
+        aliases:
+          - "restapp.co.za"
+
+  admin-server:
+    build:
+      context: ../SpringAdminServer/
+      args:
+        JAR_FILE: build/libs/*.jar
+    ports:
+      - "8070:8070"
+    networks:
+      backend:
+        aliases:
+          - "adminserver.co.za"
+
+networks:
+  backend:
+    name: rest_example_backend
