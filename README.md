@@ -11,7 +11,7 @@ docker build -t rest .
 
 # Running the docker image
 
-docker run -p 8080:8080 -p 8787:8787 -p 9090:9090 -v {base directory of system}:/usr/src/mount --name rest -d rest
+docker run -p 8080:8080 -p 8787:8787 -p 9090:9090 -v {base directory of system}:/usr/src/mount --rm --name rest -d rest
 
 # Swagger URL
 
@@ -25,8 +25,10 @@ To run the application with Spring Admin Console
 - Move it to the same directory as this application
 - Build both applications
 
-# Run
+# Run With Admin Console
 
 (Attached to the current terminal session)
 
 $ docker-compose build && docker-compose up
+
+Admin Console: http://localhost:7070
