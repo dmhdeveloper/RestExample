@@ -17,6 +17,14 @@ docker run -p 8080:8080 -p 8787:8787 -p 9090:9090 -v {base directory of system}:
 
 http://localhost:8080/swagger-ui.html
 
-# Prometheus UI
+To run the application with Spring Admin Console
 
-http://locahost:9090
+- Pull the spring-admin-console : https://github.com/dmhdeveloper/spring-admin-console.git
+- Move it to the same directory as this application
+- Build both applications
+
+# Run
+
+(Attached to the current terminal session)
+
+$ docker-compose build && docker-compose up
